@@ -1,0 +1,436 @@
+11:01:19 **** Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+11:01:29 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+11:21:33 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+11:21:36 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+11:30:36 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+11:30:38 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+11:47:14 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:38: error: expected ';' after expression
+                cout<<"Bad Memory Allocation"<<endl
+                                                   ^
+                                                   ;
+1 error generated.
+make: *** [src/Main.o] Error 1
+11:47:22 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+11:47:25 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+11:49:47 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+11:49:49 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:08:13 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:23:11 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:23:13 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:29:30 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:29:32 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:31:23 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:38:59 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:6:7: error: cannot initialize a variable of type 'int *' with an rvalue of type 'void *'
+        int *ptr = malloc( sizeof( int ) );
+             ^     ~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Main.o] Error 1
+12:39:07 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:39:09 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:39:29 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:39:31 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:39:35 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:39:38 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:39:43 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:39:45 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:39:50 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:39:57 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:6:14: warning: implicit conversion from 'long' to 'int' changes value from 1000000000000 to -727379968 [-Wconstant-conversion]
+        int count = 1000000000000;
+            ~~~~~   ^~~~~~~~~~~~~
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:40:07 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:40:09 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:40:32 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:40:35 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:42:09 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:42:14 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:43:07 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:15:11: warning: unused variable 'ptr' [-Wunused-variable]
+        Complex *ptr = new Complex;
+                 ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:43:10 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:43:24 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:15:11: warning: unused variable 'ptr' [-Wunused-variable]
+        Complex *ptr = new Complex();
+                 ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:43:27 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:44:25 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:15:11: warning: unused variable 'ptr' [-Wunused-variable]
+        Complex *ptr = ( Complex*)malloc( sizeof( Complex ) );
+                 ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:44:27 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:44:34 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:15:11: warning: unused variable 'ptr' [-Wunused-variable]
+        Complex *ptr = ( Complex*)malloc( sizeof( Complex ) );
+                 ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:44:36 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+12:57:13 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:23:11: error: redefinition of 'ptr'
+        Complex *ptr = ( Complex*)malloc( sizeof( Complex ) ); //Complex::Complex( ) do not call
+                 ^
+../src/Main.cpp:22:11: note: previous definition is here
+        Complex *ptr = new Complex();   //Complex::Complex( ) will call
+                 ^
+1 error generated.
+make: *** [src/Main.o] Error 1
+12:57:21 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+12:57:24 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+13:01:31 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:8:7: warning: unused variable 'ptr' [-Wunused-variable]
+        int *ptr = new (&arr[3]) int( 40 );
+             ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 
+13:01:33 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+make: Nothing to be done for `all'.
+13:02:55 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:10:18: error: expected ';' after expression
+        delete (&arr[3]) ptr;
+                        ^
+                        ;
+../src/Main.cpp:10:19: warning: expression result unused [-Wunused-value]
+        delete (&arr[3]) ptr;
+                         ^~~
+1 warning and 1 error generated.
+make: *** [src/Main.o] Error 1
+13:07:34 **** Incremental Build of configuration Debug for project Day_4.1 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:8:7: warning: unused variable 'ptr' [-Wunused-variable]
+        int *ptr = new (&arr[3]) int( 40 ); //Placement new operator
+             ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Day_4.1
+Invoking: MacOS X C++ Linker
+g++  -o "Day_4.1"  ./src/Main.o   
+Finished building target: Day_4.1
+ 

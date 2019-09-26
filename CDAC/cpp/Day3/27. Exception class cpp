@@ -1,0 +1,97 @@
+#include <iostream>
+using namespace std;
+#include<cstring> //or #include<string.h>
+
+namespace NException
+{
+	class Exception
+	{
+		private:
+			//variable or data members or fields
+			int errorNo;
+			char errorMessage[40];
+		public:
+			Exception(const int errorno, const char *errormessage)
+			{
+				this->errorNo=errorno;
+				strcpy(this->errorMessage, errormessage);
+			}
+			void PrintErrorMessage()
+			{
+				cout<<"Error No :: "<<this->errorNo<<endl;
+				cout<<"Error Message :: "<<this->errorMessage<<endl;
+				cout<<"File Name :: "<<__FILE__<<endl;
+				cout<<"Date :: "<<__DATE__<<endl;
+				cout<<"TIME :: "<<__TIME__<<endl;
+			}
+	};//end of Exception class
+}//end of name space NException
+
+using namespace NException;
+int main()
+{
+	#line 1 /// to change line no
+	int x=10, y=0, result=0;
+	try
+	{
+		if(y==0)
+		{
+			//throw 'A';
+			//throw true;
+			//throw 1.3f;
+			//throw 1.2;
+			//throw 1; // int
+			//className obejctname(parameters)
+			//Exception ex1(__LINE__+5, "Error ! can not divide by zero");
+			//throw ex1; 
+			throw Exception(__LINE__+5,"Error ! can not divide by zero");
+			//    className(parameters)
+		}
+		else
+		{
+			result=x/y;
+			cout<<"result ="<<result<<endl;
+		}
+	}
+	catch(char no)
+	{
+		cout<<"inside char catch no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch(int no)
+	{
+		cout<<"inside int catch1 no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch(int no)
+	{
+		cout<<"inside int catch2 no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch(float no)
+	{
+		cout<<"inside float catch no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch(double no)
+	{
+		cout<<"inside double catch no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch(bool no)
+	{
+		cout<<"inside bool catch no= "<<no<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	catch( Exception &ex)
+	{
+		cout<<"inside Exception catch  "<<endl;
+		ex.PrintErrorMessage();
+	}
+	catch(...) // generic catch
+	{
+		cout<<"inside generic catch  "<<endl;
+		cout<<"can not divide by zero"<<endl;
+	}
+	return 0;
+}

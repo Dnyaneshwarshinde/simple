@@ -1,0 +1,43 @@
+#include<cstdlib>
+#include<iostream>
+using namespace std;
+
+int main( void )
+{
+	int *ptr = ( int* )malloc( 3 * sizeof( int ) );
+
+	return 0;
+}
+int main2( void )
+{
+	//Memory Allocation
+	int *ptr = new int;
+	//int *ptr = (int*)::operator new(sizeof( int ))
+
+	*ptr = 125;
+	cout<<"Value	:	"<<*ptr<<endl;
+
+	//Memory Deallocation
+	delete ptr;
+	//::operator delete(ptr);
+
+	ptr = NULL;
+
+	return 0;
+}
+int main1( void )
+{
+	//Memory Allocation
+	int *ptr = ( int* )malloc( sizeof( int ) );
+	if( ptr != NULL )
+	{
+		*ptr = 125;
+		cout<<"Value	:	"<<*ptr<<endl;
+		//Memory Deallocation
+		free( ptr );
+		ptr = NULL;
+	}
+	else
+		cout<<"Bad Memory Allocation"<<endl;
+	return 0;
+}
